@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // CRITICAL for GitHub Pages:
-    base: '/<tafsikCRFaudit>/',
+    base: '/tafsikCFRaudit/',
 
     plugins: [react()],
 
