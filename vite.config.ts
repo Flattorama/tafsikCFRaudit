@@ -2,8 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // Must match your repo name for GitHub Pages
-  base: '/tafsikCFRaudit/',
+  // UPDATED: Set to '/' because you are now on a custom subdomain (reports.tafsik.com)
+  // which treats the site as living at the root, not in a /repo-name/ subfolder.
+  base: '/',
 
   plugins: [react()],
 
