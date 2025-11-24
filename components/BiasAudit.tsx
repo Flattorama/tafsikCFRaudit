@@ -233,7 +233,9 @@ export const BiasAudit: React.FC = () => {
                    <div className="grid gap-4">
                       {Object.entries(selectedCard.breakdown_scores).map(([key, score]) => (
                          <div key={key} className="flex items-center justify-between border-b border-slate-800 pb-2">
-                            <span className="text-slate-300 capitalize text-sm font-mono">{key.replace(/_/g, ' ')}</span>
+                            <span className="text-slate-300 capitalize text-sm font-mono">
+                                {key === 'leadership_red_flags' ? 'Public Stance & Alignment' : key.replace(/_/g, ' ')}
+                            </span>
                             <div className="flex items-center gap-3">
                                <div className="w-24 h-2 bg-slate-800 rounded-full overflow-hidden">
                                   <div className={`h-full ${Number(score) > 0 ? 'bg-danger' : 'bg-slate-600'}`} style={{ width: `${(Number(score)/4)*100}%` }}></div>
