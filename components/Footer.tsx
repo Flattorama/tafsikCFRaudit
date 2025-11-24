@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
           <a 
-             href="/CRFaudit/Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf"
+             href="/Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf"
              download="Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf"
              className="px-8 py-4 bg-orange hover:bg-orange-600 text-slate-900 font-bold text-lg uppercase tracking-wider rounded shadow-lg hover:shadow-orange/20 transition-all transform hover:-translate-y-1 inline-flex items-center justify-center"
           >
