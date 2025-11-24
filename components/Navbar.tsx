@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
             Methodology
           </a>
           <a 
-            href="/CRFaudit/Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf" 
+            href="/Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf" 
             download="Tafsik_Report_2025-CRF_Bias_Strategic_Audit.pdf"
             className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white border border-slate-600 rounded transition-colors flex items-center gap-2"
           >
