@@ -80,7 +80,7 @@ const App: React.FC = () => {
                                 <td className="p-4 text-danger font-bold text-right font-mono">+2</td>
                             </tr>
                             <tr className="hover:bg-slate-800 transition">
-                                <td className="p-4 text-white font-condensed text-lg font-bold uppercase">7. Leadership Red Flags</td>
+                                <td className="p-4 text-white font-condensed text-lg font-bold uppercase">7. Public Stance & Alignment</td>
                                 <td className="p-4 text-slate-400 text-sm hidden sm:table-cell">Key personnel with a public record of minimizing October 7 or anti-Israel bias.</td>
                                 <td className="p-4 text-danger font-bold text-right font-mono">+2</td>
                             </tr>
